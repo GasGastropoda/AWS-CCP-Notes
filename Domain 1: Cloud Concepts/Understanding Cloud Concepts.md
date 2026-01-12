@@ -93,4 +93,70 @@ Once again, we have an app running in a server within AWS for a company's employ
 - AWS ***offers as well-architected tool and best practices. This tool reviews and compares your workloads to latest best AWS practices for architectual design, using the WAf as a point of reference.***
 
 ### Operational Excellence
+- **defined as the capability to:** 
+    - support development and run workloads efficiently
+    - gain insight into operations
+    - continuously improving supporting procedures and processes to deliver business value
+- **the five design principles to achieve operational excellence are:**
+    1. Perform your operations as code
+    2. Make frequent and small changes
+    3. refine operations and procedures frequently
+    4. anticipate failures
+    5. learn from operational failures
 
+### Security
+- defined as **the ability to proterct data, systems, and assets** within the cloud
+- **the seven design principles to design a secure system are:**
+    1. implement a strong identity foundation
+    2. maintain traceability
+    3. apply security at all layers
+    4. automate security practices
+    5. protect data in transit and at rest
+    6. keep people away from data
+    7. prepare for security events
+
+### Reliability
+- defined as **the ability of a workload to perform intended functions correctly and consistently when expected**. This also includes **the ability to test and operate throughout its entire lifecycle in the workload**
+- **the five design principles to design a reliable system are:**
+    1. automatic failure recovery
+    2. testing recovery procedures
+    3. the capability to scale horizontally to increase the availability of a workload
+    4. stop guessing your capacity
+    5. manage changes by using automation to deploy them
+
+### Performance Efficiency
+- defined as **the ability to use computing resources efficiently to meet system requiremenbts and maintain that efficiency as demands and technologies evolve**
+- **the five design principles to maximize performance efficiency are:**
+    1. democratize advanced technologies
+    2. go global in just minutes
+    3. use serverless architecture
+    4. experiment often
+    5. consider mechanical empathy
+
+### Cost Optimization
+- defined as **the ability to run systems to delivery business value at the lowest cost point**; maximizing performance while minimizing costs
+- further covered in Domain 4.
+
+### Sustainability
+- defined as **the practice of focusing on environmental impacts and placing emphasis on energy consumption and hardware/software efficiency**; being environmentally aware helps set limits to reduce the impact that cloud computing has on the environment
+- **the six design principles to design a sustainable cloud environment:**
+    1. understand your impact
+    2. establish sustainability goals
+    3. maximize utilization
+    4. anticipating and adopting new technologies that provide more efficient hardware and software
+    5. using managed services
+    6. reducing downstream impact of cloud workloads
+
+
+***there may be questions on the exam asking which design principles are best for each situation, so make sure to understand them!***
+
+## Other things to know
+- ensure you understand:
+    - how to read and design solutions
+    - know how to design for the future
+    - know how to decouple components (this reinforces the architectual design principle)
+    - know how to implement elasticity via auto-scaling
+    - know what security and parallelization looks like in AWS (necessary for building highly-scalable services)
+        - **Parallelization** = similar to the process of decoupling; divides a job into its simplest form and distributes the load to multiple components to handle demand
+            EXAMPLE: breaking down datasets into smalle chunks to allow them to be processed simultaneously. This provides faster processing tiems
+    - how AWS gives the advantage of **being able to focus on services and designs without the concerns of managing the underlying hardware. This gives the benefit of fast implementation and resource launching**
