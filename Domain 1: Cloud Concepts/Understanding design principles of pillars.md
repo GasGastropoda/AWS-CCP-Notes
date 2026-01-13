@@ -1,0 +1,59 @@
+### Understanding Design Principles of Each Pillar of AWS Well-Architected Framework
+
+## Operational Excellence
+- **Organizing teams around business outcomes**
+    - achieving business outcomes stems from:
+        - leadership vision
+        - effective operations
+        - business-aligned operating model
+    - leadership should invest and commit to CloudOps transformations with a cloud operating model that incentives teams to operate efficiently and meet pre-defined business expectations.
+        - the right operating model uses:
+            - people, processes, and technology to scale
+            - optimizes productivity
+            - differentiates via agility, responsibilities, responsiveness, and adaptation
+    - an organization's long term vision should be translated into goals, which are communicated to enterprises, stakeholders, and consumers
+    - goals and operational KPIs should be aligned at all levels
+- **implementing observability for actionable insights**
+    - gaining comprehensive understanding of:
+        - workloads
+        - performance
+        - reliability
+        - cost
+        - health
+    - establishing **Key Performance Indicators (KPIs)** and leveraging observability telemetry to make informed decisions and take action when certain business outcomes are at risk.
+        - **make proactive improvements of performance, reliability, and cost based on the actionably observability data**
+- **automate whenever possible**
+    - apply software engineering disciplines to environments in development
+    - define the entire workload as code and update it
+    - automate workload operations by initiating them as a response to certain events
+    - you can deploy automation in the cloud safely by configuring guardrails such as:
+        - rate control
+        - error thresholds
+        - approvals
+    - effective automation allows:
+        - consistent event response
+        - limits human error
+        - reduces operator toil
+- **make small, frequent, and reversible changes**
+    - this involves designing workloads that are scalable and loosely coupled, which allows components to update regularly
+    - automated deployment techniques with smaller and incremental changes reduce blast radius and allows faster reversal in the event of a failure
+    - making small changes increases the confidence to deliver changes to the workload while maintaining quality and adapting changes in market conditions
+- **refine operations procedures frequently**
+    - as workloads evolve, evolve operations
+    - as operations procedures are used, look for opportunities to improve them
+    - hold regular reviews and validate that all procedures are still effective and that teams are familiar with them
+    - wherever gaps are identified, update those procedures
+    - communicate all procedure changes to stakeholders and teams
+    - game-ify operations to share the best practices and educate
+- **anticipate failure**
+    - practice failure scenarios to understand a workload's risk profile and it's business impact
+    - test the effectiveness of procedures and how a team responds to failure
+    - make informed decisions to manage risks identified by testing
+- **learn from operational events and metrics**
+    - drive improvement via lessons learned from operational events and failures
+    - share lessons learned across teams and organization
+    - lessons learned should highlight data and anecdote on how operations contribute to business outcomes
+- **use managed services**
+    - lower operational burden by using AWS services whenever possible. Make sure you build operational procedures around interactions with those services
+
+## Security
